@@ -3,6 +3,8 @@
 
 #include "XistedLogMacros.h"
 
+DEFINE_LOG_CATEGORY(LogXimUI);
+DEFINE_LOG_CATEGORY(LogXimUIActionRouter);
 
 const FString FalseString(TEXT("false"));
 const FString TrueString(TEXT("true"));

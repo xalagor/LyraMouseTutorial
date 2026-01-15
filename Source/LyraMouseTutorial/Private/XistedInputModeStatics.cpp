@@ -3,14 +3,15 @@
 
 #include "XistedInputModeStatics.h"
 
+#include "CommonInputModeTypes.h"
+#include "GameFramework/PlayerController.h"
 #include "XistedLogMacros.h"
 #include "XistedUIActionRouter.h"
 
 
-void UXistedInputModeStatics::XistedSetInputMode(const APlayerController* PlayerController, const ECommonInputMode& CommonInputMode);
+void UXistedInputModeStatics::XistedSetInputMode(const APlayerController* PlayerController, ECommonInputMode CommonInputMode)
 {
-	check(PlayerController);
-
+        check(PlayerController);
 	const ULocalPlayer* LocalPlayer = PlayerController->GetLocalPlayer();
 	if (!LocalPlayer)
 	{

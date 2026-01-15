@@ -9,6 +9,7 @@
 
 enum class ECommonInputMode : uint8;
 
+class APlayerController;
 
 /**
  * XistEd Input Mode Statics
@@ -28,7 +29,7 @@ public:
 	 * @param PlayerController Must be the local player's controller, or an exception will be thrown
 	 * @param CommonInputMode The new input mode to set
 	 */
-	UFUNCTION(BlueprintCallable)
-	static void XistedSetInputMode(const APlayerController* PlayerController, const ECommonInputMode& CommonInputMode);
-
-};
+	        UFUNCTION(BlueprintCallable)
+	        static void XistedSetInputMode(const APlayerController* PlayerController, ECommonInputMode CommonInputMode);
+	
+	};

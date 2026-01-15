@@ -2,11 +2,11 @@
 
 Main Branch: https://github.com/XistGG/LyraMouseTutorial
 
-**Updated for UE 5.5**
+**Updated for UE 5.7**
 
 This is a Plugin intended to be used in a `LyraStarterGame` project.
 The purpose of this is to demonstrate how to work with CommonUI as it
-is implemented in Lyra 5.5.
+is implemented in Lyra 5.7.
 
 Note this code has changed somewhat from UE 5.2 as CommonUI has evolved.
 The old code (which is reviewed in the YT video) is in the `Lyra-5.2` branch
@@ -32,14 +32,14 @@ and/or the related
 for more info on How to Take Control of the Mouse in Lyra/CommonUI.
 
 The concepts are still the same, but the code reviewed in that video is
-slightly different from the current UE 5.5 code.
+slightly different from the current UE 5.7 code.
 
 
 ## Setup Notes
 
 ### Requirements
 
-- You must be using UE 5.5+ and Lyra 5.5+ source
+- You must be using UE 5.7+ and Lyra 5.7+ source
 
 ### Initial Setup (Project-specific)
 

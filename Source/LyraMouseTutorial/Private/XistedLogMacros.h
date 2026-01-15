@@ -10,6 +10,12 @@
 #include "CoreMinimal.h"
 #include "LyraLogChannels.h"  // for LogLyra
 
+DECLARE_LOG_CATEGORY_EXTERN(LogXimUI, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogXimUIActionRouter, Log, All);
+
+#ifndef WITH_XIM_INPUT_DEBUG
+	#define WITH_XIM_INPUT_DEBUG 1
+#endif
 
 #define BOOL2TEXT(b)  ((b) ? *TrueString : *FalseString)
 
